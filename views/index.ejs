@@ -21,3 +21,15 @@
     </li>
 <% }); %>
 </ul>
+
+<h3>Customers(for loop)</h3>
+<ul>
+    <% for(var i = 0; i < customers.length; i++){ %>
+        <li>
+            <h4><%= customers[i].value.name %></h4>
+            <p><%= customers[i].value.email %></p>
+        </li>
+    <% } %>
+</ul>
+
+
